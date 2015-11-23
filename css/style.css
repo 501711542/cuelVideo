@@ -1,0 +1,85 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0}
+table{border-collapse:collapse;border-spacing:0;clear: both}
+img{border:0}
+ol,ul,li{list-style:none}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:400}
+input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;*font-size:100%;color:#636363}
+.clearfix:before, .clearfix:after {content:"";display:table}.clearfix:after{clear:both}.clearfix{*zoom:1}
+.fl{float:left;}.fr{float:right;}
+body{color:#454545;font:13px/1.5 'Microsoft Yahei',Tahoma,Helvetica,Arial,"\5b8b\4f53",sans-serif;position:relative;min-width:1005px}
+a{color:#666;text-decoration:none;-webkit-transition:color 500 linear}
+a:hover{text-decoration:none;color:#da0000;cursor:pointer;transition:color .1s linear}
+a:focus,input:focus{outline:none}
+a{noFocusLine:expression(this.onFocus=this.blur());}
+.clear{clear:both}
+
+body{background: url("../images/bg.jpg") no-repeat center top;background-repeat: repeat-y;}
+.topPerson{height: 512px;}
+.navBox{background: url("../images/nav.jpg") no-repeat center;height: 71px;overflow: hidden;}
+.nav{width: 1005px;margin: 0px auto;overflow: hidden;}
+.nav li{float: left;width: 201px;}
+.nav li .current{background: url("../images/navSelect1.png") no-repeat;color: #ff2f2f;}
+.nav li a{display: block;color: #999999;text-align: center;}
+.nav li a span{display: block;text-align: center;}
+.nav li a .cn{font-size: 20px;margin-top: 5px; }
+.nav li a .en{font-size: 16px;}
+.layout{clear: both;width: 1005px;margin: 0px auto;background: #323335;padding: 20px 30px;min-width: 1005px;}
+.layout .content{overflow: hidden;}
+.firstTitle{width: 214px;height: 93px;margin: 10px 0px;}
+.footer{width: 500px;margin: 20px auto;text-align: center;}
+.footer ul{overflow: hidden;}
+.footer a{display: block;float:left;padding: 0px 10px;border-right: 1px solid #666;}
+.footer p{clear:both;margin-top: 10px;}
+
+/*index*/
+.heroRoad .firstTitle{background: url("../images/heroRoad.png") no-repeat;}
+.heroRoad .scheduleList{overflow: hidden;margin: 10px 0px;}
+.heroRoad .scheduleList li{float: left;margin: 0px 21px;}
+.heroRoad .scheduleList li a{display: block;float: left;position: relative;text-align: center}
+.heroRoad .scheduleList li a span{display: block;position: absolute;top:110px;font-size: 15px;width: 100%;}
+.heroRoad .scheduleList li .current{color: #c22828;}
+.heroStart .firstTitle{background: url("../images/heroStart.png") no-repeat;}
+.heroStart .formBox{width: 700px;margin: 20px auto;}
+.heroStart .formTitle{margin-left: 100px;overflow: hidden;}
+.heroStart .formTitle h3{display: inline-block;font-size: 24px;margin: 0px 20px;}
+.heroStart .formTitle .current{color: #ff2f2f;border-bottom: 2px solid #ff2f2f;}
+.heroStart form{overflow: hidden;margin: 20px 0px;}
+.heroStart form .row{overflow: hidden;margin: 20px 0px;}
+.heroStart form .row label{display: inline-block;width: 100px;height:20px;line-height:20px;text-align: right}
+.heroStart form .row .input_txt{background:#999999;border: 1px solid #999999;border-radius: 5px;box-shadow: 5px 5px 2px  #000;height: 18px;width:200px;padding: 8px 0px;}
+.heroStart form .row .input_tip{color: red;}
+.heroStart form .row .submit{background: url("../images/startBtn.png") no-repeat;width: 184px;height: 61px;border: 0px;cursor: pointer;}
+.index .rules{width:500px;margin: 30px auto;text-align: center; }
+
+/*赛事汇总*/
+.eventSummary{float: left;width: 500px;}
+.eventSummary .firstTitle{background: url("../images/summary.png") no-repeat;}
+.eventSummary .eventList li{}
+.eventSummary .eventList li a{display: block;width: 100%;font-size: 20px;padding: 10px 0px;border-bottom: 1px solid #999999;}
+.eventSummary .eventList li .time{float: right;height: 40px;line-height: 40px;font-size: 14px;}
+.eventSummary .page{overflow: hidden;text-align: center;margin: 20px auto;width: 138px;}
+.eventSummary .page a{display: block;float: left;margin: 0px 5px;}
+.eventVideo{float: right;width: 450px;}
+.eventVideo  .firstTitle{background: url("images/video.png") no-repeat;}
+.eventVideo .videoList{overflow: hidden;}
+.eventVideo .videoList ul a{display: block;width: 168px;float: left;text-align: center;position: relative;margin: 10px 10px;}
+.eventVideo .videoList ul a:hover{transform:scale(1.2,1.2); }
+.eventVideo .videoList li a i{width:500px;height:500px;display:block;background: url("images/icon_play_58_58.png") no-repeat;position: absolute;left: 50%;top: 50%;margin-left: -29px;margin-top:-29px; }
+
+/*荣誉墙*/
+.honorWall{width: 900px;margin: 0px auto;}
+.honorWall .firstTitle{background: url("../images/honorWall.png") no-repeat;}
+.honorWall .search{overflow: hidden;background: #928e8b;padding: 20px 0px;}
+.honorWall .search .row{display: inline-block;}
+.honorWall .search select option{background: #000;border: 1px solid #000;height: 20px;}
+.honorWall .search input[type="text"]{background: #000;border: 1px solid #000;width: 100px;}
+.honorWall .search input[type="button"]{padding: 5px 10px;background: red;border: 1px solid red;border: 1px solid red;border-radius: 5px;color: white;}
+.honorWall .honorList{color: #B7AFAF;}
+.honorWall .honorList th,.honorWall .honorList td{width:150px;text-align: center;padding: 15px 0px;border-right: 1px solid whitesmoke }
+.honorWall .honorList th:last-child,.honorWall .honorList td:last-child{border: 0px;}
+.honorWall .honorList thead tr{background: #313131;}
+.honorWall .honorList tbody tr:nth-child(odd){background: #535353;}
+.honorWall .honorList tbody tr:nth-child(even){background: #313131;}
+.honorWall .page{overflow: hidden;width: 400px; margin: 30px auto;}
+.honorWall .page li{float: left;margin: 0 5px;}
+.honorWall .page .pageNum{width: 15px;background: #000;border: 1px solid #000;}
